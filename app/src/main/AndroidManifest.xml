@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.company.mathrix">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/math_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/math_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MathRIX"
+        tools:targetApi="31">
+        <activity
+            android:name=".EndGameDivision"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EndGameMultiplication"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EndGameSubtraction"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EndGameAddition"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Division"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Multiplication"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Subtraction"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Addition"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OperationChooser"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
